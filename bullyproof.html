@@ -4,6 +4,7 @@
   <meta charset="utf-8">
 
   <!-- STYLESHEETS -->
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Montserrat|Oswald" rel="stylesheet"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -12,21 +13,23 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand justify-content-start" href="index.html">Olympic Karate Studio</a>
+  <nav class="navbar sticky-top navbar-expand-lg bg-oks">
+      <a class="navbar-brand justify-content-start brand-oks" href="index.html">
+        <img src="img/fist_logo.jpg" height="70">
+        Olympic Karate Studio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav nav-fill">
-          <li class="nav-item">
+      <ul class="navbar-nav nav-fill links-oks">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="classes.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Classes
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-oks" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="little_champs.html">Little Champs (4-6)</a>
               <a class="dropdown-item" href="juniors.html">Juniors (7-12)</a>
               <a class="dropdown-item" href="adults_teens.html">Adults & Teens (13+)</a>
@@ -34,11 +37,11 @@
               <a class="dropdown-item" href="schedule.html">Class Schedule</a>
             </div>
           </li>
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="programs_events.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Programs/Events
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-oks" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="ninja_night.html">Ninja Nights</a>
               <a class="dropdown-item" href="birthday_parties.html">Birthday Parties</a>
               <a class="dropdown-item" href="bullyproof.html">Bullyproof</a>
@@ -60,21 +63,12 @@
       </div>
     </nav>
 
-    <!-- HEADER -->
-    <header>
-      <div class="oks-header-text">
-        <div class="oks-title">Olympic Karate Studio</div>
-        <div class="oks-subtitle">Come Kick It With Us</div>
-      </div>
-      <img src="img/fist_logo.jpg" class="oks-logo">
-    </header>
-
     <div class="content">
       bullyproof coming soon
       <!-- TODO: MAKE CONTENT -->
     </div>
 
-    <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+    <nav class="navbar fixed-bottom bg-oks footer-oks justify-content-center">
       Olympic Karate Studio | 7209 Fegenbush Lane, Louisville, KY 40228 | (502) 762-1515
     </nav>
 <!-- JAVASCRIPT -->

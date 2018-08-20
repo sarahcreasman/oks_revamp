@@ -1,3 +1,4 @@
+/* UNIVERSAL CONTENT */
 body {
   background-color: #666;
 }
@@ -11,7 +12,6 @@ header {
   padding: 10px;
   margin: 0 auto;
 }
-
 .content {
   max-width: 850px;
   margin: 0 auto;
@@ -20,47 +20,70 @@ header {
   padding: 25px;
 }
 
-.oks-header-text {
-  align-self: flex-start;
-  order: 1;
-  flex-grow: 2;
+/* NAVBAR CUSTOMIZATION */
+.bg-oks {
+  background-color: #000;
+  color: #fff;
+}
+.bg-oks a {
+  color: #fff;
+}
+.brand-oks {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+.brand-oks a {
+  color: #fff;
+}
+.links-oks {
+  font-family: 'Montserrat', sans-serif;
+}
+.links-oks a:hover {
+  background-color: #cc0033;
+  color: #fff;
+}
+.dropdown-oks {
+  background-color: #000;
+  color: #fff;
+}
+.dropdown-oks a:hover {
+  background-color: #cc0033;
+  color: #fff;
 }
 
-.oks-title {
-  color: #fff;
-  text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-}
-.oks-subtitle {
-  color: #fff;
-  text-align: center;
-  font-size: 18px;
-}
-.oks-logo {
-  height: 100px;
-  width: 100px;
-  align-self: flex-end;
-  order: 2;
-  margin-right: 50px;
+/* FOOTER CUSTOMIZATION */
+.footer-oks {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
+/* CAROUSEL */
 #oks-carousel {
   margin: 0 auto;
   max-width: 850px;
   max-height: 400px;
 }
 
-.oks-welcome {
-  /* TODO: WRITE CODE HERE */
-}
-
+/* INDEX PAGE CUSTOMIZATION */
 .oks-mission {
-  /* TODO: WRITE CODE HERE */
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  color: #cc0033;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #666;
 }
 .oks-mission-text {
-  /* TODO: WRITE CODE HERE */
+  text-align: justify;
+  max-width: 90%;
+  margin: 0 auto;
 }
 .oks-trial {
-  /* TODO: WRITE CODE HERE */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  color: #cc0033;
+  font-weight: bold;
+  letter-spacing: 1px;
 }

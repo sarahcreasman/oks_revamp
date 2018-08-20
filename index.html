@@ -4,6 +4,7 @@
   <meta charset="utf-8">
 
   <!-- STYLESHEETS -->
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Montserrat|Oswald" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -12,13 +13,15 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand justify-content-start" href="index.html">Olympic Karate Studio</a>
+  <nav class="navbar sticky-top navbar-expand-lg bg-oks">
+      <a class="navbar-brand justify-content-start brand-oks" href="index.html">
+        <img src="img/fist_logo.jpg" height="70">
+        Olympic Karate Studio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav nav-fill">
+      <ul class="navbar-nav nav-fill links-oks">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -26,7 +29,7 @@
             <a class="nav-link dropdown-toggle" href="classes.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Classes
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-oks" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="little_champs.html">Little Champs (4-6)</a>
               <a class="dropdown-item" href="juniors.html">Juniors (7-12)</a>
               <a class="dropdown-item" href="adults_teens.html">Adults & Teens (13+)</a>
@@ -38,7 +41,7 @@
             <a class="nav-link dropdown-toggle" href="programs_events.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Programs/Events
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-oks" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="ninja_night.html">Ninja Nights</a>
               <a class="dropdown-item" href="birthday_parties.html">Birthday Parties</a>
               <a class="dropdown-item" href="bullyproof.html">Bullyproof</a>
@@ -59,15 +62,6 @@
         </ul>
       </div>
     </nav>
-
-    <!-- HEADER -->
-    <header>
-      <div class="oks-header-text">
-        <div class="oks-title">Olympic Karate Studio</div>
-        <div class="oks-subtitle">Come Kick It With Us</div>
-      </div>
-      <img src="img/fist_logo.jpg" class="oks-logo">
-    </header>
 
       <!-- CAROUSEL IMAGES -->
       <div id="oks-carousel" class="carousel slide" data-ride="carousel">
@@ -105,13 +99,11 @@
       </div>
 
     <div class="content">
-      <p class="oks-welcome">Welcome to Louisville's best karate school!</p>
-
       <h1 class="oks-mission">Our Mission</h1>
-      <p class="oks-mission-text">Our goal is to help our students be more successful in life.
- We do this by teaching our karate as a complete discipline that encompasses mind, body, and spirit. Our curriculum of developing physical defense encourages the formation of high personal standards and respect for our fellow men and women. Through our practice and teaching we strive to become individuals who are positive, respected, and contributing members of society.</p>
+      <p class="oks-mission-text">Our goal is to help our students be more successful in life. We do this by teaching our karate as a complete discipline that encompasses mind, body, and spirit. Our curriculum of developing physical defense encourages the formation of high personal standards and respect for our fellow men and women. Through our practice and teaching we strive to become individuals who are positive, respected, and contributing members of society.</p></br>
 
-      <h3 class="oks-trial">START A FREE 2-WEEK TRIAL TODAY! CONTACT US FOR MORE INFORMATION.</h3>
+      <h3 class="oks-trial">Start a free two week trial today! Contact us for more information!</h3>
+
 
       <div class="row">
         <div class="card col-sm-4">
@@ -143,7 +135,7 @@
       </div>
     </div>
 
-    <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+    <nav class="navbar fixed-bottom bg-oks footer-oks justify-content-center">
       Olympic Karate Studio | 7209 Fegenbush Lane, Louisville, KY 40228 | (502) 762-1515
     </nav>
 <!-- JAVASCRIPT -->
@@ -151,5 +143,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
