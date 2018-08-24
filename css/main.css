@@ -97,8 +97,8 @@ header {
   object-fit: cover;
 }
 
-/* INDEX PAGE CUSTOMIZATION */
-.oks-mission {
+/* TEXT STYLINGS */
+.oks-title {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
   color: #cc0033;
@@ -106,12 +106,15 @@ header {
   letter-spacing: 1px;
   text-shadow: 1px 1px #666;
 }
-.oks-mission-text {
+.oks-body {
   text-align: justify;
   max-width: 90%;
   margin: 0 auto;
 }
-.oks-trial {
+.oks-body b {
+  color: #cc0033;
+}
+.oks-attn {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
@@ -119,8 +122,18 @@ header {
   font-weight: bold;
   letter-spacing: 1px;
 }
+.oks-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  color: #cc0033;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height:90%;
+}
 
-/* CLASS PAGE CUSTOMIZATION */
-.class-img {
-
+/* PAGE STYLINGS */
+.oks-img {
+  max-width: 800px;
+  margin: 0 auto;
 }
