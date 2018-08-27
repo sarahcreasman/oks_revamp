@@ -65,6 +65,10 @@ header {
   background-color: #cc0033;
   color: #fff;
 }
+.oks-toggle {
+  color: #fff;
+  font-size: 24px;
+}
 
 /* FOOTER CUSTOMIZATION */
 .footer-oks {
@@ -162,4 +166,24 @@ header {
   background:none!important;
   max-height:300px;
   max-width:850px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1325px) {
+  .brand-oks {
+    font-size: 36px;
+  }
+  .links-oks {
+    font-size: 14px;
+  }
+  .brand-img-oks {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .brand-img-oks {
+    display: none;
+  }
 }
